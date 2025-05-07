@@ -32,7 +32,7 @@ header{
 
 main{
     display: flex;
-    flex-direction: !important;
+    flex-direction: column !important;
     justify-content: center;
     align-items: center;
     border: 2px solid var(--text-color);
@@ -40,4 +40,13 @@ main{
     padding: 2rem;
 }
 
+footer{
+    bottom: 0;
+    height: 20px;
+    border-top: 2px solid var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
