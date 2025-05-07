@@ -32,10 +32,12 @@ header{
 
 main{
     display: flex;
-    flex-direction: column;
+    flex-direction: !important;
     justify-content: center;
     align-items: center;
     border: 2px solid var(--text-color);
     border-radius: 20px;
     padding: 2rem;
 }
+
+
