@@ -9,13 +9,11 @@
 }
 
 body {
-    width: 100%;
     background-color: var(--background-color) !important;
     color: var(--text-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    align-items: right;
+    display: left;
+    justify-content: left;
+    align-items: left;
 }
 
 header {
