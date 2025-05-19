@@ -1,5 +1,5 @@
 :root {
-    background-color: #212129b3;
+    --background-color: #212129b3;
     --text-color: #ffffff90;
 }
 
@@ -10,13 +10,12 @@
 
 body {
     width: 100%;
-    height: 100vh;
     background-color: var(--background-color) !important;
     color: var(--text-color);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
 }
 
 header {
