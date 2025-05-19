@@ -67,15 +67,3 @@ input {
 input[type="submit"], input[type="reset"]{
     margin: 0.5rem;
 }
-
-footer {
-    padding: 0.5rem;
-    bottom: 0;
-    height: 20px;
-    border-top: 2px solid var(--text-color);
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
